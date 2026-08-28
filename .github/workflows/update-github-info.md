@@ -6,7 +6,7 @@ on:
 permissions:
   contents: read
 engine: copilot
-model: gpt-5-mini
+model: claude-haiku-4.5
 tools:
   edit:
   web-fetch:
