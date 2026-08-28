@@ -1,6 +1,8 @@
 ---
 name: update-github-info
-on: daily
+on:
+  schedule: daily
+  workflow_dispatch:
 permissions:
   contents: read
 engine: copilot
