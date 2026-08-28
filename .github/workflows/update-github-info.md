@@ -6,6 +6,7 @@ on:
 permissions:
   contents: read
 engine: copilot
+model: mini
 tools:
   edit:
   web-fetch:
